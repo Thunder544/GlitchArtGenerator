@@ -8,4 +8,4 @@ Edit the "fileName" variable in "glitchArt.py: to be the file name of the image 
 
 Finally, run the script. The new image will open in your default image program. This process will not ruin the original image, but it will save a new image with the changes. 
 
-NOTE: You need PIL (Pillow) to be able to run this code
+NOTE: You need the PIL (Pillow) module to be able to run this code
