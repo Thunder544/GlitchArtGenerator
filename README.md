@@ -1,5 +1,5 @@
 # GlitchArtGenerator
-Pixel Sorting glitch art generator I made in Python
+Pixel sorting glitch art generator I made in Python
 
 ## Use:
 To use, put this script in a directory where you have image files you wish to turn into glitch art.
