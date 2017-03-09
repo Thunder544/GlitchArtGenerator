@@ -10,7 +10,8 @@ def sortBy(colorTuple, colorIndex, reverse):
 
 
 #NOTE: Image file must be in same directory as this script
-fileName = "YOUR FILE NAME HERE"
+fileName = "YOUR FILENAME HERE"
+outputFileName = "WHATEVER YOU WANT TO CALL IT"
 
 img = Image.open(fileName)
 
@@ -60,4 +61,4 @@ for i in range(width):
 
 img.show()
 
-img.save("WHATEVER YOU WANNA CALL IT.jpg")
+img.save(outputFileName)
