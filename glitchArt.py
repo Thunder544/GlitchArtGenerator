@@ -4,7 +4,7 @@ import random
 #NOTE: Color index can only be 0,1 or 2
 def sortBy(colorTuple, colorIndex, reverse):
     if reverse:
-        return sorted(colorTuple, key=lambda x: x[colorIndex],reverse=reverse)
+        return sorted(colorTuple, key=lambda x: x[colorIndex], reverse=reverse)
     else:
         return sorted(colorTuple, key=lambda x: x[colorIndex])
 
@@ -21,8 +21,8 @@ loadImgList2 = []
 
 width, height = img.size
 
-startWidth = random.randint(0,(width-150))
-startHeight = random.randint(0,(height-75))
+startWidth = random.randint(0, (width-150))
+startHeight = random.randint(0, (height-75))
 
 for i in range(startWidth, startWidth+150):
     for j in range(height):
